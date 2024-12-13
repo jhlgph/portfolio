@@ -1,0 +1,118 @@
+body {
+    font-family: "Dongle", sans-serif;
+    font-size: 45px;
+  background-color: #fffbf0;
+  margin: 5%;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Dongle", sans-serif;
+  color: #ff69b4;
+}
+
+.hover-link {
+  text-decoration: none;
+  color: white;
+  transition: text-decoration 0.2s ease;
+}
+
+.hover-link:hover {
+  text-decoration: underline white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  background-color: #ffc0cb;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+header {
+  padding: 20px;
+  background-color: #ffe4e1;
+}
+
+section {
+  padding: 50px;
+}
+
+.me {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background: #fff;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 300px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #ff69b4;
+  font-size: 35px;
+}
+
+.download-btn {
+  display: block;
+  text-align: center;
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-decoration: none;
+  width: 300px;
+  border-radius: 15px;
+}
+
+img {
+    width: 800px;
+    height: auto;
+  }
+  
+
+footer {
+  height: 50px;
+  width: 900px;
+  text-align: center;
+  color: #ffc0cb;
+}
